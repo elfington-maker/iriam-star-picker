@@ -141,8 +141,7 @@ export default function IriamStarShoutoutApp() {
           </p>
         </motion.div>
 
-        <Card className="bg-slate-900/80 border-slate-700 shadow-2xl rounded-2xl">
-          <CardContent className="p-5 sm:p-8 grid gap-6">
+        <div className="bg-slate-900/80 border border-slate-700 shadow-2xl rounded-2xl p-5 sm:p-8 grid gap-6">
             <motion.div
               key={message}
               initial={{ opacity: 0, scale: 0.98 }}
@@ -172,8 +171,7 @@ export default function IriamStarShoutoutApp() {
                 {copied ? "Copied!" : "Copy Message"}
               </Button>
             </div>
-          </CardContent>
-        </Card>
+          </div>
 
         <p className="text-center text-sm text-slate-400 flex items-center justify-center gap-2">
           <Star className="h-4 w-4" />
