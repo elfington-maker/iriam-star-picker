@@ -130,7 +130,7 @@ export default function IriamStarShoutoutApp() {
           <div className="flex justify-center">
             <div className="rounded-full bg-yellow-300/10 border border-yellow-200/20 px-4 py-2 flex items-center gap-2 text-yellow-100">
               <Sparkles className="h-4 w-4" />
-              IRIAM Star Message Picker
+              What does that Star do?
             </div>
           </div>
           <h1 className="text-3xl sm:text-5xl font-bold tracking-tight">
