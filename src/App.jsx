@@ -137,7 +137,7 @@ export default function IriamStarShoutoutApp() {
             Pull a silly star message
           </h1>
           <p className="text-slate-300 max-w-2xl mx-auto text-base sm:text-lg">
-            One button. One chaotic star line. Perfect for quick live shoutouts.
+            One button. One star line. Perfect for quick live shoutouts.
           </p>
         </motion.div>
 
