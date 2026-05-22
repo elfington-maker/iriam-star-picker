@@ -155,21 +155,21 @@ export default function IriamStarShoutoutApp() {
             </motion.div>
 
             <div className="flex flex-col sm:flex-row gap-3">
-              <Button
+              <button
                 onClick={pullMessage}
                 className="rounded-2xl bg-yellow-300 text-slate-950 hover:bg-yellow-200 text-lg py-7 flex-1"
               >
                 <Shuffle className="h-5 w-5 mr-2" />
                 Pull Star Message
-              </Button>
-              <Button
+              </button>
+              <button
                 onClick={copyMessage}
                 variant="outline"
                 className="rounded-2xl bg-slate-950 border-slate-700 text-slate-200 hover:bg-slate-800 text-lg py-7 flex-1"
               >
                 <Copy className="h-5 w-5 mr-2" />
                 {copied ? "Copied!" : "Copy Message"}
-              </Button>
+              </button>
             </div>
           </div>
 
