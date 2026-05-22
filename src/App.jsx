@@ -141,8 +141,7 @@ export default function IriamStarShoutoutApp() {
           </p>
         </motion.div>
 
-        <Card className="bg-slate-900/80 border-slate-700 shadow-2xl rounded-2xl">
-          <CardContent className="p-5 sm:p-8 grid gap-6">
+        <div className="bg-slate-900/80 border border-slate-700 shadow-2xl rounded-2xl p-5 sm:p-8 grid gap-6">
             <motion.div
               key={message}
               initial={{ opacity: 0, scale: 0.98 }}
@@ -156,24 +155,24 @@ export default function IriamStarShoutoutApp() {
             </motion.div>
 
             <div className="flex flex-col sm:flex-row gap-3">
-              <Button
+              <button
                 onClick={pullMessage}
                 className="rounded-2xl bg-yellow-300 text-slate-950 hover:bg-yellow-200 text-lg py-7 flex-1"
               >
                 <Shuffle className="h-5 w-5 mr-2" />
                 Pull Star Message
-              </Button>
-              <Button
+              </button>
+              <button
                 onClick={copyMessage}
                 variant="outline"
                 className="rounded-2xl bg-slate-950 border-slate-700 text-slate-200 hover:bg-slate-800 text-lg py-7 flex-1"
               >
                 <Copy className="h-5 w-5 mr-2" />
                 {copied ? "Copied!" : "Copy Message"}
-              </Button>
+              </button>
             </div>
-          </CardContent>
-        </Card>
+          
+        </div>
 
         <p className="text-center text-sm text-slate-400 flex items-center justify-center gap-2">
           <Star className="h-4 w-4" />
