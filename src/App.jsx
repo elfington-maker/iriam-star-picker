@@ -56,7 +56,6 @@ const starMessages = [
   "That one is eighty percent sparkle and twenty percent tax evasion.",
   "Please keep your hands and wishes inside the stream at all times.",
   "We’ve unlocked premium sparkle. It does nothing, but louder.",
-  "The forest has upgraded your nonsense license.",
   "This is no longer a star. This is a tiny celestial problem.",
   "We can now summon a suspiciously polite goblin.",
   "The star has requested a little cape and a dramatic entrance.",
