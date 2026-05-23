@@ -85,7 +85,7 @@ const starMessages = [
   "This one should not be stored near important decisions.",
   "I can hear the constellations gossiping.",
   "We have achieved forbidden sparkle density.",
-  "Someone get the tiny crown. The star demands ceremony.",
+  "Someone get the tiny crown. The star demands ceremony.","A starbloon for the performace! Thank you for your patronage!",
 ];
 
 function getRandomItem(items, previous) {
