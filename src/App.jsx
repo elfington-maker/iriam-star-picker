@@ -173,10 +173,21 @@ export default function IriamStarShoutoutApp() {
           
         </div>
 
-        <p className="text-center text-sm text-slate-400 flex items-center justify-center gap-2">
-          <Star className="h-4 w-4" />
-          Tip: keep this open during stream and click whenever a star message comes in.
-        </p>
+        <div className="text-center text-sm text-slate-400 flex flex-col items-center gap-4">
+			<p className="flex items-center justify-center gap-2">
+				<Star className="h-4 w-4" />
+				Tip: keep this open during stream and click whenever a star message comes in.
+			</p>
+
+			<a
+				href="https://ko-fi.com/elfington"
+				target="_blank"
+				rel="noopener noreferrer"
+				className="inline-flex items-center gap-2 rounded-full border border-yellow-300/30 px-4 py-2 text-yellow-300 hover:bg-yellow-300/10 transition-all"
+			>
+				Support development of free tools for IRIAM streamers
+			</a>
+		</div>
       </div>
     </div>
   );
