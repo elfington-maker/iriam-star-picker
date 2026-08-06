@@ -44,7 +44,7 @@ const starMessages = [
   "This one tastes like blueberries and foreshadowing.",
   "This star knows three secrets and none of them are useful.",
   "Do not microwave. It gets philosophical.",
-  "That’s enough to bribe a goblin accountant.",
+  "That’s enough to bribe a stellar cop.",
   "The star has started a podcast about mushrooms.",
   "That one can be used as a bookmark in forbidden tomes.",
   "It’s not cursed. It’s just dramatically seasoned.",
